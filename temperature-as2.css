@@ -14,13 +14,16 @@ p{
     align-items: center;
 }
 
-.btn-convert{
-    color: white;
-}  
+
 .button-input{
     display:flex;
-    background-color: green;
     align-items: center; 
     justify-content: center;
     padding: .5rem; 
+}
+
+.main-button{
+    background-color: green;
+    color: white;
+    padding: 10px;
 }
