@@ -1,0 +1,26 @@
+h1{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: -10rem;
+}
+p{
+    font-size: 10rem;
+}
+
+
+.emoji-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-convert{
+    color: white;
+}  
+.button-input{
+    display:flex;
+    background-color: green;
+    align-items: center; 
+    justify-content: center;
+    padding: .5rem; 
+}
