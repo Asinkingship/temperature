@@ -7,7 +7,7 @@ function convertTemperatureRange(){
         if(userInput==="c"){
             let c=(i - 32) * 5/9; 
             //document.getElementById("tempConversionResults").innerHTML= `<li> ${i} - Fahrenheit ==  ${c} - Celsius </li>`;   
-            document.write(`<li> ${i} - Fahrenheit   =   ${c} - Celsius </li>`);
+            document.write(`<li> ${i} - Fahrenheit   =   ${c.toFixed(2)} - Celsius </li>`);
         }else if(userInput==="f"){
             let f=(i * 9/5) + 32;
             //document.getElementById("tempConversionResults").innerHTML= `<li> ${i} - Celcius ==  ${f} - Fahrenheit </li>`;    
